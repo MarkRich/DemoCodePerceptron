@@ -1,0 +1,17 @@
+This is a perceptron POS tagger that uses viterbi decoding.
+The data can be downloaded here: https://s3.amazonaws.com/MyT.practice/Data.zip
+This was created for this assignment: http://cs.nyu.edu/~dsontag/courses/pgm13/assignments/ps7.pdf
+an overview of results can be found here: https://s3.amazonaws.com/MyT.practice/Perceptron.docx
+
+If you want to test this file out, you will run the file HW7FeaturesTry3.py in a directory that has a ./Data directory
+as used in line 119 of HW7FeaturesTry3.py. You will also need the file ViterbiTry2.py in the directory as well.
+
+A few things:
+
+-You can train on up to 5000 sentences. Change the starting point of where you train (in offset by 100) with offSetTrainingSentences
+in HW7FeaturesTry3.py. If you want fully trained results then set it to 48.
+-You can change the number of perceptrons being trained by changing numProcesses in HW7FeaturesTry3.py. 
+Especially useful if you want to see performance vs. number of training sentences.
+
+Email me with any questions at:
+mark (dot) rich388 (at) gmail (dot) com
